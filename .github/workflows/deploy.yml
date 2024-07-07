@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: my-docker-hub-namespace/my-docker-hub-repository
+          images: cdto17/prueba
 
       - name: Build and push Docker image
         id: push
